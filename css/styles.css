@@ -366,6 +366,7 @@
     font-size: 14px;
     width: 15em;
     outline: none;
+    padding: 10px;
    }
 
    form input{
@@ -761,6 +762,7 @@
     font-size: 14px;
     width: 20em;
     outline: none;
+    padding: 10px;
    }
 
    form input{

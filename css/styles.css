@@ -709,6 +709,15 @@
    
    }
 
+  .item-2 a:hover{
+    color: #0F5959;
+    
+  }
+
+   .item-2 a:visited{
+    color: white;
+   }
+
    .item-2 h3{
     font-size: 20px;
    }

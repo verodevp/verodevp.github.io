@@ -306,8 +306,8 @@
     border-radius: 20px;
     width: 50%;
     background-color: white;
-    display: flex;
-    justify-content: center;
+    
+    
     
    }
 
@@ -660,6 +660,7 @@
    .name{
     clear: both;
    }
+
    .works{
     
     padding: 20px;
@@ -677,14 +678,14 @@
     flex-direction: row;
 
    }
+
    .item-1{
     
    border-radius: 20px;
    width: 40%;
    background-color: white;
-   margin: auto;
-   display: flex;
-   align-content: center;
+   
+  
     
    }
 

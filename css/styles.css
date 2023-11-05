@@ -331,6 +331,14 @@
    
    }
 
+   .item-2 a:link, .item-2 a:active{
+    color: white;
+   }
+
+   .item-2 a:visited{
+    color: #8edbc1;
+   }
+
   .container-form{
    
     padding: 20px;
@@ -709,13 +717,14 @@
    
    }
 
-  .item-2 a:hover{
-    color: #0F5959;
-    
-  }
+   .item-2 a:link, .item-2 a:active{
+    color: white;
+   }
+
+
 
    .item-2 a:visited{
-    color: white;
+    color: #8edbc1;
    }
 
    .item-2 h3{

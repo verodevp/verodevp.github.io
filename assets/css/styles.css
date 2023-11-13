@@ -11,6 +11,7 @@
     body{
         font-family: 'Michroma', sans-serif;
         font-size: 12px;
+    
     }
     
     
@@ -206,7 +207,6 @@
 
     .year{
         
-    
         white-space: nowrap;
         
     }
@@ -244,11 +244,9 @@
         
     }
     
-    .section-1, .section-2, .section-3, .section-4, .section-5 p {
+    .section-1, .section-2, .section-3, .section-4, .section-5 p{
         padding: 20px;
-        
-        
-     
+   
     }
     
     
@@ -260,7 +258,7 @@
         padding: 10px;
         color: black;
         text-align: center;
-        background-color: #8edbc1; ;
+        background-color: #8edbc1;
         width: 30%;
         margin-bottom: 5px;
     }
@@ -757,38 +755,56 @@
    .item-2 p{
     font-family: "Michroma", sans-serif;
    }
+
+   .contactPage{
+    background-color: white;
+    position: relative;
+    top: 80px;
+   }
+
+   .contactSection{
+    margin: auto;
+    width: 70%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #0F5959;
+    text-align: center;
+    
+   }
+
+   .formWrapper{
+    padding: 20px;
    
-  
-   .container-form{
-  
-    border-radius: 50px;
-    background-color:  rgba(15, 89, 89, 0.5);
-
+    
    }
 
-   .row{
-    
-    display: flex;
+   form{
     padding: 10px;
-    margin: 20px;
-    
-   }
-
-   .col1{
-    
-    padding: 10px;
-    margin-right: 20px;
-   }
-
-   .col1 h1{
-    margin-bottom: 20px;
-   }
-
-   form {
     display: flex;
     flex-direction: column;
-  
+    margin-top: 20px;
    }
+   
+   input[type=text], textarea {
+    width: 100%;
+    border: 1px solid #181818;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+    padding: 10px;
+    
+    
+   }
+
+   input[type=text]:focus,
+   textarea:focus {
+    background-color: #ede7dd;
+    border: 2px solid #D2D2D2;
+  }
+
+ 
+   
+  
 
    form label{
     font-family: "Montserrat", sans-serif;
@@ -798,45 +814,42 @@
    }
 
 
-   form input, form textarea{
-    border-radius: 4px;
-    font-size: 14px;
-    width: 20em;
-    outline: none;
-    padding: 10px;
-   }
-
-   form input{
-    height: 2em;
+    input[type=text]{
+    height: 4em;
    }
 
 
-   form textarea{
+   textarea{
     resize:none;
-   
     height: 10em ;
    }
 
-   .btn{
-    padding: 5px;
-    background-color: #ede7dd;
-    font-size: 14px;
+   input[type=submit]{
+    width: 15em;
+    height: 5em;
+    background-color: #0F5959;
     border-radius: 10px;
-    color: black;
-    width: 100%;
-    height: 3em;
-    margin-top: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-
+    border: none;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
    }
 
-
-   .col .btn:active{
-    background-color:#0F5959;
-    color: black;
+   input[type=submit]:hover{
+    background-color: #8edbc1;
     font-weight: bold;
    }
+
+   .infoContact{
+    background-color: #ede7dd;
+   }
+
+   
+
+
+
 
 
 

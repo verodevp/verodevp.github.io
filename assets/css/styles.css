@@ -189,8 +189,8 @@
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
-        
        
+        
     }
 
     .cv-h2, .skills-h2, .year, .name{
@@ -201,6 +201,13 @@
         font-family: "Montserrat" , sans-serif;
         font-size: 16px;
         font-weight: bold;
+        
+    }
+
+    .year{
+        
+    
+        white-space: nowrap;
         
     }
 
@@ -224,23 +231,24 @@
     }
     
     
-    .section-1, .section-2, .section-3, .section-4,.section-5{
+    .section-1, .section-2, .section-3, .section-4, .section-5{
     
         border-radius: 50px;
-        width: 70%;
-        height: 100px;
-        margin: 10px 5px 5px 5px;
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
         display: flex;
         justify-content: space-between;
         background-color: #8edbc1;
         
     }
     
-    .section-1, .section-2, .section-3, .section-4,.section-5 p{
+    .section-1, .section-2, .section-3, .section-4, .section-5 p {
         padding: 20px;
-        border-radius: 50px;
-        background-color: #8edbc1;
         
+        
+     
     }
     
     

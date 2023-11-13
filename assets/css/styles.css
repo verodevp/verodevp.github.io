@@ -10,7 +10,7 @@
 @media only screen and (min-width:360px) and (max-width: 768px){
     body{
         font-family: 'Michroma', sans-serif;
-        font-size: 12px;
+        font-size: 14px;
     
     }
     
@@ -143,7 +143,7 @@
         
         background-color: #ede7dd;
         position: relative;
-        top: 50px;
+        top: 70px;
         padding-bottom: 30px;
     
     }
@@ -213,14 +213,10 @@
 
     .name a{
         font-size: 24px;
-    }
-    
-    .content .cv .section p{
-        font-size: 12px;
+        margin-bottom: 10px;
     }
     
     
-
     
     .skills{
         display: flex;
@@ -246,6 +242,7 @@
     
     .section-1, .section-2, .section-3, .section-4, .section-5 p{
         padding: 20px;
+        
    
     }
     
@@ -263,63 +260,33 @@
         margin-bottom: 5px;
     }
     
-    footer{
-        background-color: black;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 70px;
-       
-    }
-    
-    
-    .footer-section{
-       
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
-    footer .footer-section a{
-        color: white;
-        text-decoration:  none;
-        margin-bottom: 10px;
-    }
-
-    footer .footer-section a:active{
-        color:#0F5959
-    }
 
     .works{
        
-        padding: 10px;
+        padding: 20px;
         font-family: "Montserrat", sans-serif;
         border-radius: 50px;
-        margin: 20px;
         background-color: rgba(15, 89, 89, 0.7);
         color: #ede7dd;
+        width: 80%;
+        margin: auto;
         
     }
+
   .project{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 }
   
   
-   .project{
-    display: flex;
-    gap: 10px;
-    
-
-   }
    .item-1{
     
     border-radius: 20px;
     width: 50%;
     background-color: white;
+    margin-bottom: 10px;
     
     
     
@@ -329,20 +296,19 @@
    .item-1 img{
     width: 100%;
     border-radius: 20px;
+    
    }
 
    .item-2{
-   
-    padding-bottom: 15px;
     width: 50%;
-    height: 20em;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     border-bottom: 2px solid #ede7dd;
     
-   
    }
+
+  
 
    .item-2 a:link, .item-2 a:active{
     color: white;
@@ -352,77 +318,114 @@
     color: #8edbc1;
    }
 
-  .container-form{
-   
-    padding: 20px;
-    border-radius: 50px;
-    border: 3px solid #ede7dd;
-    background-color: rgba(125,172,155, 0.5);
-  }
-
-   .row{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
+   .contactPage{
+    background-color: white;
+    position: relative;
+    top: 72px;
    }
+
+   .contactSection{
+    border-bottom: 2px solid #0F5959;
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+   }
+
+   .formWrapper{
+    
+    margin-top: 10px;
+    padding: 20px 30px;
+   }
+
 
     form{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 8px;
-    padding: 5px;
+    width: 100%;
     
    }
 
-   form label{
+   label{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 1em;
    }
 
-   form input, form textarea{
-    border-radius: 4px;
+   input[type=text],textarea{
+    border-radius: 10px;
     font-size: 14px;
-    width: 15em;
+    width: 100%;
     outline: none;
     padding: 10px;
+    border: 1px solid #181818;
    }
 
-   form input{
-    height: 2em;
+   input[type=text]:focus,
+   textarea:focus{
+    background-color: #ede7dd;
+   }
+
+   input{
+    height: 3em;
    }
 
 
-   form textarea{
+   textarea{
     resize:none;
-   
     height: 10em ;
    }
 
-   .btn{
-    padding: 5px;
-    background-color: #ede7dd;
-    font-size: 14px;
-    border-radius: 10px;
-    color: black;
+   input[type=submit]{
     width: 15em;
-    height: 3em;
+    height: 5em;
+    background-color: #0F5959;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
     margin-top: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-
+    cursor: pointer;
    }
 
-   .btn:active{
-    background-color: rgba(125,172,155, 0.8);
-    font-weight: bold; 
+   input[type=submit]:active{
+    background-color: #8edbc1;
+    font-weight: bold;
+   }
+
+
+   footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20em;
+    padding: 100px;
+    
+    
 }
 
+.footer-section{
+   
+    display: flex;
+    flex-direction: column;
+    
+}
 
-    
-    
+footer .footer-section a{
+    color: white;
+    text-decoration:  none;
+    margin-bottom: 10px;
+}
+
+footer .footer-section a:active{
+    color:#0F5959
+}
+
     
 }
 

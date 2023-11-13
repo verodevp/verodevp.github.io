@@ -134,6 +134,7 @@
        
       }
     
+      
     
     
     
@@ -180,6 +181,7 @@
     }
     .content .wrapper .first img {
         border-radius: 50px;
+        width: 80%;
     }
     
     .cv {
@@ -200,6 +202,10 @@
         font-size: 16px;
         font-weight: bold;
         
+    }
+
+    .name a{
+        font-size: 24px;
     }
     
     .content .cv .section p{
@@ -485,6 +491,10 @@
          border-radius: 10px;
     }
 
+    .firstImage{
+        width: 80%;
+      }
+
 
     .content{
         
@@ -560,6 +570,10 @@
         font-family: "Montserrat" , sans-serif;
         font-size: 16px;
         font-weight: bold;
+    }
+
+    .name a{
+        font-size: 24px;
     }
 
     .year{

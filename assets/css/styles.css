@@ -158,6 +158,7 @@
         flex-direction: column;
         padding: 20px;
         background-color:  rgba(15, 89, 89, 0.8);
+        margin-bottom: 20px;
         
     }
 
@@ -192,6 +193,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
+        margin-bottom: 40px;
        
         
     }
@@ -202,21 +204,27 @@
         margin-top: 10px;
         color: black;
         font-family: "Montserrat" , sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: bold;
+        
         
     }
 
-    .year{
+    .cv-h2, .skills-h2, .name{
+        border-bottom: 2px solid #0F5959;
+        margin: auto;
+        width: 50%;
+        
+        
+    }
+
+    .cv-h2, .skills-h2, .name .year {
         
         white-space: nowrap;
         
     }
 
-    .name a{
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
+    
     
     
     
@@ -225,7 +233,7 @@
         align-items: center;
         flex-direction: column;
         margin-top: 10px;
-        margin-bottom: 30px;   
+        margin-bottom: 40px;   
     }
     
     
@@ -244,8 +252,7 @@
     
     .section-1, .section-2, .section-3, .section-4, .section-5 p{
         padding: 20px;
-        
-   
+    
     }
     
     
@@ -263,23 +270,15 @@
     }
     
 
-    .works{
-       
-        padding: 20px;
-        font-family: "Montserrat", sans-serif;
-        background-color: rgba(15, 89, 89, 0.7);
-        color: #ede7dd;
-        width: 80%;
-        border-radius: 30px;
-        margin: auto;
-        
-    }
+    
 
   .project{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    ;
+    flex-direction: row;
+    align-items:flex-start;
+    
+    margin: 10px 20px;
+    padding: 10px;
     
 }
   
@@ -287,7 +286,7 @@
    .item-1{
     
     border-radius: 20px;
-    width: 40%;
+    width: 30%;
     background-color: white;
     margin-bottom: 10px;
     
@@ -299,28 +298,28 @@
 
    .item-1 img{
     width: 100%;
-    border-radius: 20px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
     
    }
 
    .item-2{
     
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid #ede7dd;
+    margin-left: 20px;
+    width: 60%;
+   
     
+   }
+
+   .item-2 h3{
+    font-family: "Montserrat", sans-serif;
    }
 
   
 
-   .item-2 a:link, .item-2 a:active{
-    color: white;
-   }
-
-   .item-2 a:visited{
-    color: #8edbc1;
-   }
+  
 
    .contactPage{
     background-color: white;
@@ -528,6 +527,7 @@ footer .footer-section a:active{
         align-items: center;
         padding: 50px;
         background-color: rgba(15, 89, 89, 0.8);
+        margin-bottom: 20px;
     }
 
 
@@ -574,22 +574,23 @@ footer .footer-section a:active{
         padding-left: 20px;
         display: flex;
         flex-direction: column-reverse;
+        margin-bottom: 20px;
         
     }
 
     .cv-h2, .skills-h2,  .name {
         text-align: center;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin: auto;
         color: black;
         font-family: "Montserrat" , sans-serif;
         font-size: 16px;
         font-weight: bold;
+        border-bottom: 2px solid #0F5959;
+        width: 30%;
+
     }
 
-    .name a{
-        font-size: 24px;
-    }
+    
 
     .year{
         font-family: "Montserrat" , sans-serif;
@@ -699,44 +700,42 @@ footer .footer-section a:active{
    
    .name{
     clear: both;
+    border-bottom: 2px solid #0F5959;
+    width: 30%;
+    margin: auto;
    }
 
-   .works{
-    
-    padding: 20px;
-    font-family: "Montserrat", sans-serif;
-    border-radius: 50px;
-    margin: 20px;
-    background-color: rgb(15, 89, 89, 0.7);
-    color: #ede7dd;
-    
-   }
+  
 
    
    .project{
+    margin: 20px;
     display: flex;
     flex-direction: row;
+    
+    padding: 10px;
+    
+    
     
 
    }
 
    .item-1{
     
-   border-radius: 20px;
-   width: 40%;
+   
+   width: 20%;
    height: auto;
-   background-color: white;
    margin-right: 30px;
-   
-   
-  
-    
+ 
    }
 
 
    .item-1 img{
     width: 100%;
-    border-radius: 20px;
+    border-top-left-radius: 500px;
+   border-top-right-radius: 500px;
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 500px;
 
    
    }
@@ -764,6 +763,7 @@ footer .footer-section a:active{
 
    .item-2 h3{
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
    }
 
    .item-2 p{

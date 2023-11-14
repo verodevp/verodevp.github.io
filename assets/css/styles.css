@@ -403,7 +403,9 @@
     flex-direction: row;
     justify-content: space-around;
     height: 20em;
-    padding: 100px;
+    padding-top: 30px;
+    margin-top:71px;
+   
     
     
 }
@@ -667,8 +669,9 @@ footer .footer-section a:active{
     background-color: black;
     display: flex;
     justify-content: space-around;
-    padding: 100px;
+    margin-top: 75px;
     font-size: 14px;
+    padding: 50px;
    }
 
    .footer-section a{

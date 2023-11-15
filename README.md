@@ -7,7 +7,7 @@ L’obiettivo del sito è quello di mostrare le competenze acquisite nel campo d
 
 Il sito web prevede due pagine principali: **About** (index.html) e **Contatti** (contact.html).
 
-Nella sezione About vi è una panoramica generale del mio percorso formativo e lavorativo, vi è inoltre una parte dedicata alle competenze tecniche acquisite e ai progetti realizzati. 
+Nella sezione About vi è una panoramica generale del mio percorso formativo e lavorativo, vi è inoltre una parte dedicata alle skills e ai progetti realizzati. 
 
 Tramite la pagina Contatti è possibile compilare un form finalizzato all’invio di un messagio da parte del visitatore, il servizio utilizzato è  *Formspree*.
 

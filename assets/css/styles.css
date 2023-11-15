@@ -57,16 +57,16 @@
        color: #0F5959;
     }
     
-    .header .logo img{
-        width: 100px;
-    }
+    
+
     .logo {
         float: left;
-        
-        text-decoration: none;
-        color: white;
-        font-size: 18px;
-        padding: 10px 20px;
+        width: 40%;
+        padding: 5px;
+    }
+
+    .header .logo img{
+        width: 30%;
     }
     
     .menu{
@@ -460,11 +460,13 @@ footer .footer-section a:active{
     }
 
     .logo{
-        font-size: 25px;
-        text-decoration: none;
-        color: white;
+        width: 30%;
         float: left;
-        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .header .logo img{
+        width: 20%;
     }
 
     .header ul{

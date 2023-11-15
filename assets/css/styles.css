@@ -6,7 +6,6 @@
 }
 
 
-
 @media only screen and (min-width:360px) and (max-width: 768px){
     body{
         font-family: 'Michroma', sans-serif;
@@ -19,8 +18,11 @@
         
         width: 100%;
         background-color: black;
+        opacity: 0.9;
         position: fixed;
         z-index: 1;
+        
+       
        
     }
     
@@ -32,6 +34,7 @@
       list-style: none;
       overflow: hidden;
       background-color: black;
+      
     }
     
     .header ul a{
@@ -62,14 +65,13 @@
     .logo {
         float: left;
         width: 40%;
-        padding: 5px;
-        margin-left: 20px;
-        margin-top: 10px;
-        
+        padding-left: 20px;
+        padding-top: 5px;
     }
 
     .header .logo img{
-        width: 30%;
+        width: 40%;
+        
     }
     
     .menu{
@@ -440,6 +442,8 @@ footer .footer-section a:active{
     
 }
 
+
+
 @media only screen and (min-width: 769px){
 
     
@@ -447,6 +451,8 @@ footer .footer-section a:active{
     body{
         font-family: 'Michroma', sans-serif;
         font-size: 14px;
+        background-color: #ede7dd;
+        
     }
 
     .header{
@@ -455,24 +461,26 @@ footer .footer-section a:active{
         background-color:black;
         position: fixed;
         z-index: 1;
-        padding: 10px;
+        padding-right: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        opacity: 0.9;
+        
 
-        
-        
-       
+    
     }
 
     .logo{
-        width: 30%;
+        width: 40%;
         float: left;
-        padding: 5px;
+        
     }
 
     .header .logo img{
         width: 20%;
+        margin-left: 20px;
+       
     }
 
     .header ul{
@@ -522,7 +530,7 @@ footer .footer-section a:active{
         
         background-color: #ede7dd;
         position: relative;
-        top: 77px;
+        top: 110px;
         padding-bottom: 20px;
         
     

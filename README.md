@@ -1,5 +1,5 @@
 # verodevp.github.io
-#Portfolio personale 
+# Portfolio personale 
 
 Il progetto realizzato è un portfolio personale di una figura “Junior Front end Developer”. 
 
@@ -9,7 +9,7 @@ Il sito web prevede due pagine principali: **About** (index.html) e **Contatti**
 
 Nella sezione About vi è una panoramica generale del mio percorso formativo e lavorativo, vi è inoltre una parte dedicata alle competenze tecniche acquisite e ai progetti realizzati. 
 
-Tramite la pagina Contatti è possibile compilare un form finalizzato all’invio di un messagio da parte del visitatore, il servizio utilizzato è * *Formspree* *.
+Tramite la pagina Contatti è possibile compilare un form finalizzato all’invio di un messagio da parte del visitatore, il servizio utilizzato è  *Formspree*.
 
 Le immagini del progetto e il file css sono stati inseriti all’interno delle loro cartelle di riferimento situate nella directory **“assets”** in modo da rendere la repository chiara e organizzata per eventuali miglioramenti e correzioni future.
 

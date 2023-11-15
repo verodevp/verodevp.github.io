@@ -63,6 +63,9 @@
         float: left;
         width: 40%;
         padding: 5px;
+        margin-left: 20px;
+        margin-top: 10px;
+        
     }
 
     .header .logo img{
@@ -90,6 +93,7 @@
         height: 2px;
         position: relative;
         transition: background-color .2s ease-out;
+    
     }
     
     
@@ -270,13 +274,20 @@
     }
     
 
+    .works{
+        width: 100%;
+       background-color: rgba(15, 89, 89, 0.7);
+        margin-top: 5px;
+        
+       
+      }
     
 
   .project{
     display: flex;
     flex-direction: row;
     align-items:flex-start;
-    
+    color:#ede7dd;
     margin: 10px 20px;
     padding: 10px;
     
@@ -705,15 +716,21 @@ footer .footer-section a:active{
     margin: auto;
    }
 
-  
+  .works{
+    width: 100%;
+   background-color: rgba(15, 89, 89, 0.7);
+    margin-top: 5px;
+    
+   
+  }
 
    
    .project{
     margin: 20px;
     display: flex;
     flex-direction: row;
-    
     padding: 10px;
+    color:#ede7dd
     
     
     

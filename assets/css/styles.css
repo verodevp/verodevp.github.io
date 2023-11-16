@@ -188,6 +188,7 @@
     .content .wrapper .first img {
         border-radius: 50px;
         width: 80%;
+        margin-top: 45px;
     }
     
     .cv {
@@ -750,10 +751,7 @@ footer .footer-section a:active{
 
    .item-1 img{
     width: 100%;
-    border-top-left-radius: 500px;
-   border-top-right-radius: 500px;
-   border-bottom-left-radius: 50px;
-   border-bottom-right-radius: 500px;
+    border-radius: 100px;
 
    
    }
